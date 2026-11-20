@@ -13,11 +13,47 @@ I work on making large language models **smaller, cheaper to adapt, and safer to
 
 | Area | Tools |
 |---|---|
-| **Languages** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black) ![R](https://img.shields.io/badge/R-276DC3?style=flat-square&logo=r&logoColor=white) |
-| **ML / DL** | ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white) ![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black) PEFT · verl |
-| **LLM Apps** | ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white) LangGraph · FAISS · RAG · REST APIs |
-| **Data** | ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white) ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white) Matplotlib · Seaborn |
-| **Dev Tools** | ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) Shell Scripting |
+| **Languages** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) · ![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black) · ![R](https://img.shields.io/badge/R-276DC3?style=flat-square&logo=r&logoColor=white) |
+| **ML / DL** | ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white) · ![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black) · PEFT · verl |
+| **LLM Apps** | ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white) · LangGraph · FAISS · RAG · REST APIs |
+| **Data** | ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white) · ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white) · Matplotlib · Seaborn |
+| **Dev Tools** | ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) · ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) · Shell Scripting |
+
+---
+
+## 📄 Publications
+
+- **Hyun Woo Jeong**, Ju-Heon Ha, Taegyu Yang, Dongjun Kim, Kyung-Ah Sohn.
+  *Nudge and Merge: Simple Post-Hoc Sparsification of Dense Adapters for Parameter-Efficient Fine-Tuning on Sparse LLMs.*
+  Under review (AAAI 2027), 2026.
+  
+- Yunseo Choi, **Hyun Woo Jeong**, Ho Jin Lee, Ju-Heon Ha, Kyung-Ah Sohn.
+  *SchemaTopic: Neural Topic Modeling with LLM-Generated Schemas.*
+  ACL ARR May 2026 Submission, 2026.
+  
+- **Hyun Woo Jeong**, Yunseo Choi, Dong-Hun Choi, Kyung-Ah Sohn.
+  *LangGraph-based LLM Agent Design for Addressing Copyright Infringement by Generative AI.* 
+  Korea Artificial Intelligence Conference, Sep. 2025. [[paper]](https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12416361)
+  
+- **Hyun Woo Jeong**, Byounghan Lee, Kyung-Ah Sohn.
+  *Using Knowledge Injection in Prompt Learning for Counter Speech Generation.* 
+  Korea Software Congress (KSC), Dec. 2024. 🏆 Top Excellence Award (Undergraduate) [[paper]](https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12042307)
+
+---
+
+## 🚀 Projects
+
+### (Ongoing) LLM Safeguard — Safety Evaluation & Training Design
+*Mar. 2026 – Present*
+
+- Designed a hierarchical safety-benchmark taxonomy (**General / Adversarial / Contextual**) for building specialized safeguard models.
+- Building a reinforcement-learning pipeline for LLM-based safeguard models, exploring **GRPO** and **MOPD**.
+
+### AI Copyright Dispute Agent — LangGraph + RAG | [[Repo]](https://github.com/dhcryan/ai-copyright-dispute-agent)
+*Jul. 2025 – Sep. 2025*
+
+- Orchestrated image-based copyright risk analysis, legal-document retrieval, and LLM response generation with a **LangGraph StateGraph** workflow.
+- Built a **FAISS** legal-case retriever with OpenAI embeddings and integrated retrieval-augmented QA into the agent.
 
 ---
 
@@ -41,35 +77,6 @@ Pruned LLMs save memory, but merging a dense LoRA-style adapter into them breaks
 - Studied knowledge-injected prompt learning for generating counter speech against hateful expressions while keeping general conversational ability.
 - 🏆 **Top Excellence Award (Undergraduate), KSC 2024 Undergraduate/Junior Paper Competition**
 
----
 
-## 🚀 Projects
 
-### LLM Safeguard Research — Safety Evaluation & Training Design
-*Mar. 2026 – Present*
 
-- Designed a hierarchical safety-benchmark taxonomy (**General / Adversarial / Contextual**) for building specialized safeguard models.
-- Building a reinforcement-learning pipeline for LLM-based safeguard models, exploring **GRPO** and **MOPD**.
-
-### AI Copyright Dispute Agent — LangGraph + RAG
-*Jul. 2025 – Sep. 2025* · <!-- TODO: add repository link, e.g. [Repo](https://github.com/jhw0714/REPO_NAME) -->
-
-- Orchestrated image-based copyright risk analysis, legal-document retrieval, and LLM response generation with a **LangGraph StateGraph** workflow.
-- Built a **FAISS** legal-case retriever with OpenAI embeddings and integrated retrieval-augmented QA into the agent.
-
----
-
-## 📄 Publications
-
-- **Hyun Woo Jeong**, Ju-Heon Ha, Taegyu Yang, Dongjun Kim, Kyung-Ah Sohn.
-  *Nudge and Merge: Simple Post-Hoc Sparsification of Dense Adapters for Parameter-Efficient Fine-Tuning on Sparse LLMs.*
-  Under review (AAAI 2027), 2026.
-- Yunseo Choi, **Hyun Woo Jeong**, Ho Jin Lee, Ju-Heon Ha, Kyung-Ah Sohn.
-  *SchemaTopic: Neural Topic Modeling with LLM-Generated Schemas.*
-  ACL ARR May 2026 Submission, 2026.
-- **Hyun Woo Jeong**, Yunseo Choi, Dong-Hun Choi, Kyung-Ah Sohn.
-  *LangGraph-based LLM Agent Design for Addressing Copyright Infringement by Generative AI.*
-  Korea Artificial Intelligence Conference, Sep. 2025.
-- **Hyun Woo Jeong**, Byounghan Lee, Kyung-Ah Sohn.
-  *Using Knowledge Injection in Prompt Learning for Counter Speech Generation.*
-  Korea Software Congress (KSC), Dec. 2024. 🏆 Top Excellence Award (Undergraduate)
