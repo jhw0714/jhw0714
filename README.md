@@ -5,7 +5,7 @@ M.S. student in Artificial Intelligence at **Ajou University** (Advisor: Prof. K
 My research focus is to make large language models **smaller, cheaper to adapt, and safer to deploy**.
 
 - 🔬 **Research interests:** Large Language Models · Model Compression · Parameter-Efficient Fine-Tuning · AI Safety
-- 🎓 M.S. in AI, Ajou University (Mar. 2025 – Feb. 2027, expected) · B.S. in Software, Ajou University (2019 – 2025)
+- 🎓 M.S. in AI, Ajou University (Mar. 2025 – Feb. 2027, expected) · B.S. in Software and Computer Engineering, Ajou University (2019 – 2025)
 - 📫 jhw0714@ajou.ac.kr
 
 ---
